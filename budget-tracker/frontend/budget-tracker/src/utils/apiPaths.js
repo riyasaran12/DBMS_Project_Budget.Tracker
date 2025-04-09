@@ -1,4 +1,4 @@
-export const BASE_URL = "http://localhost:8000";
+export const BASE_URL = "https://dbms-project-budget-tracker-12.onrender.com";
 
 export const API_PATHS = {
   AUTH: {
