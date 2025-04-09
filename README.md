@@ -37,6 +37,7 @@ A full-stack web application built with the MERN stack to help users efficiently
 - 🔔 Toast notifications using react-hot-toast
 - 📥 Export transactions to Excel
 
+---
 
 ## 📂 Folder Structure
 
@@ -63,13 +64,38 @@ DBMS_Project_Budget.Tracker/
 │   │   ├── utils/       
 │   │   ├── App.jsx         
 │   │   ├── index.css
-|   |   ├── main.jsx     
+|   |   |── main.jsx     
 │   ├── vite.config.js 
 │   └── package.json      
 │
 ├── README.md              
 
 ```
+
+---
+
+## 📸 Screenshots
+
+### 🔐 Login  
+![Login](budget-tracker/frontend/budget-tracker/src/assets/images/LoginPage.png)
+
+### 📝 Sign Up  
+![SignUp](budget-tracker/frontend/budget-tracker/src/assets/images/SignupPage.png)
+
+### 📊 Dashboard (Part 1)  
+![Dashboard](budget-tracker/frontend/budget-tracker/src/assets/images/Dashboard1.jpg)
+
+### 📊 Dashboard (Part 2)  
+![Dashboard Continued](budget-tracker/frontend/budget-tracker/src/assets/images/Dashboard2.png)
+
+### ➕ Add Income  
+![Income](budget-tracker/frontend/budget-tracker/src/assets/images/IncomePage.png)
+
+### 🧾 Income Form  
+![Income Form](budget-tracker/frontend/budget-tracker/src/assets/images/IncomeForm.png)
+
+### ➖ Add Expense  
+![Expense](budget-tracker/frontend/budget-tracker/src/assets/images/ExpensePage.png)
 
 
 ---
@@ -103,8 +129,10 @@ JWT_SECRET=your_secret_key
 ```bash
 cd ../frontend
 npm install
-npm start
+npm run dev
 ```
+
+---
 
 ## 👥 Contributors
 
