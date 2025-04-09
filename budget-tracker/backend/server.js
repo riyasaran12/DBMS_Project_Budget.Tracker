@@ -12,12 +12,25 @@ const devRoutes = require("./routes/devRoutes"); // ✅ Added for dummy data
 
 const app = express();
 
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://dbms-project-budget-tracker-15.onrender.com"
+];
+
+
 // Middleware to handle CORS
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "*",
+    origin: function (origin, callback) {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
+    credentials: true,
   })
 );
 
