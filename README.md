@@ -38,6 +38,40 @@ A full-stack web application built with the MERN stack to help users efficiently
 - 📥 Export transactions to Excel
 
 
+## 📂 Folder Structure
+
+```bash
+DBMS_Project_Budget.Tracker/
+├── backend/               
+│   ├── controllers/       
+│   ├── middleware/        
+│   ├── models/            
+│   ├── routes/            
+│   ├── uploads/             
+│   ├── .env               
+│   ├── server.js          
+│   └── package.json       
+│
+├── frontend/              
+│   ├── public/            
+│   ├── src/               
+│   │   ├── assets/        
+│   │   ├── components/    
+│   │   ├── context/
+│   │   ├── hooks/       
+│   │   ├── pages/
+│   │   ├── utils/       
+│   │   ├── App.jsx         
+│   │   ├── index.css
+|   |   ├── main.jsx     
+│   ├── vite.config.js 
+│   └── package.json      
+│
+├── README.md              
+
+```
+
+
 ---
 
 ## ⚙️ Installation & Setup
@@ -91,5 +125,4 @@ Dr. Lavika Goel
 DIS Lab, Department of Computer Science & Engineering  
 Malaviya National Institute of Technology (MNIT), Jaipur
 
-**Submitted As Part Of:**  
-Semester Project Work
+**Note:** Submitted as part of semester project work.
