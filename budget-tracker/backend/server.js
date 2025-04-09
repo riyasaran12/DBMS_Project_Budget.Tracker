@@ -21,6 +21,7 @@ app.use(
     credentials: true, // Optional: needed if you're sending cookies/auth tokens
   })
 );
+app.options("*", cors()); // handles preflight requests
 
 app.use(express.json());
 
