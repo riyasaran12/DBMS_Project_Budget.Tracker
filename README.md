@@ -78,6 +78,6 @@ npm start
 |----------------|--------------------------------------------------------|
 | Vaibhav Garg     | [@vaibhavgarg230](https://github.com/vaibhavgarg230)        |
 | Riya Saran        | [@riyasaran12](https://github.com/riyasaran12)        |
-| Ashika | [@a_shika](https://github.com/a_shika)    |
+| Ashika | [@A-shika](https://github.com/A-shika)    |
 
 
