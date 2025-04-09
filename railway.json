@@ -1,7 +1,8 @@
 {
   "build": {
-    "installCommand": "cd budget-tracker/backend && npm install",
+    "rootDir": "budget-tracker/backend",
+    "installCommand": "npm install",
     "buildCommand": "",
-    "startCommand": "cd budget-tracker/backend && npm start"
+    "startCommand": "npm start"
   }
 }
