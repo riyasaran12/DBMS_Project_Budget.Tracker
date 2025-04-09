@@ -81,3 +81,15 @@ npm start
 | Ashika | [@A-shika](https://github.com/A-shika)    |
 
 
+---
+
+## 📄 Submission Details
+
+**Submitted To:**  
+Dr. Namita Mittal  
+Dr. Lavika Goel  
+DIS Lab, Department of Computer Science & Engineering  
+Malaviya National Institute of Technology (MNIT), Jaipur
+
+**Submitted As Part Of:**  
+Semester Project Work
