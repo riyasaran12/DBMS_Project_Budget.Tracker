@@ -134,6 +134,16 @@ npm run dev
 
 ---
 
+## 📈 Future Enhancements
+
+- 🔁 Recurring Payments Reminder
+- 🤖 AI-Powered Budget Prediction
+- 📊 Export to PDF/CSV
+- 🧾 Category-wise Spending Limits
+- 📱 Mobile App (React Native)
+
+---
+
 ## 👥 Contributors
 
 | Name           | GitHub Username                                       |
