@@ -1,7 +1,7 @@
 {
   "build": {
-    "installCommand": "cd backend && npm install",
+    "installCommand": "cd budget-tracker/backend && npm install",
     "buildCommand": "",
-    "startCommand": "cd backend && npm start"
+    "startCommand": "cd budget-tracker/backend && npm start"
   }
 }
